@@ -1,7 +1,7 @@
 {
-    "name": "XrayHeroku",
-    "description": "xray websocket proxy on heroku",
-    "keywords": ["xray vmess vless trojan shadowsocks socks tor"],
+    "name": "rhrou",
+    "description": "websocket proxy on heroku",
+    "keywords": ["xstv"],
     "env": {
         "AA": {
             "description": "初阶用户只需修改以下AUUID点击页面最后的Deploy app按钮即可开始部署",
@@ -9,19 +9,19 @@
         },
         "AUUID": {
             "description": "UUID充当各个配置的路径和账号密码，建议修改和妥善保存,可生成UUID的网站: https://www.uuidgenerator.net",
-            "value": "813c7144-9f76-4151-979e-692668d8f0e7"
+            "value": "a41a94e0-5c76-4a89-88f3-59d45ea0b436"
         },
         "CADDYIndexPage": {
             "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/Lbingyi/HerokuXray/blob/master/etc/CADDYIndexPage.md",
-            "value": "https://github.com/AYJCSGM/mikutap/archive/master.zip"
+            "value": "https://github.com/tailwindtoolbox/Landing-Page/archive/master.zip"
         },
         "CONFIGCADDY": {
             "description": "自定义网络地址读取配置运行CADDY，不熟悉CADDY配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/kaiedkf23/task/master/etc/Caddyfile"
+            "value": "https://raw.githubusercontent.com/Stackand89/zcjjgdb/master/etc/Caddyfile"
         },
         "CONFIGXRAY": {
             "description": "自定义网络地址读取配置运行xray，不熟悉xray配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/kaiedkf23/task/master/etc/xray.json"
+            "value": "https://raw.githubusercontent.com/Stackand89/zcjjgdb/master/etc/xray.json"
         },
         "ParameterSSENCYPT": {
             "description": "SS加密方式，查看支持协议: https://www.v2fly.org/config/protocols/shadowsocks.html",
@@ -29,10 +29,10 @@
         },
         "StoreFiles": {
             "description": "自定义网络地址读取存储文件列表",
-            "value": "https://raw.githubusercontent.com/kaiedkf23/task/master/etc/StoreFiles"
+            "value": "https://raw.githubusercontent.com/Stackand89/zcjjgdb/master/etc/StoreFiles"
         }
     },
-    "website": "https://github.com/kaiedkf23/task",
-    "repository": "https://github.com/kaiedkf23/task",
+    "website": "https://github.com/Stackand89/zcjjgdb",
+    "repository": "https://github.com/Stackand89/zcjjgdb",
     "stack": "container"
 }
